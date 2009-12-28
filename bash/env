@@ -2,5 +2,11 @@
 export HISTCONTROL=ignoredups
 # ... and ignore same sucessive entries.
 export HISTCONTROL=ignoreboth
-
-        
+# Mac ONLY
+case $( uname -s ) in
+  Darwin*)
+    export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+    ;;
+  *)
+    ;;
+esac
