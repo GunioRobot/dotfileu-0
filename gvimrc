@@ -1,4 +1,4 @@
-// Stole much from here: http://weblog.jamisbuck.org/2008/11/17/vim-follow-up
+" Stole much from here: http://weblog.jamisbuck.org/2008/11/17/vim-follow-up
 set tabstop=2
 set smarttab
 set shiftwidth=2
