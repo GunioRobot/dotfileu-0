@@ -8,5 +8,6 @@ case $( uname -s ) in
     export PATH=/opt/local/bin:/usr/local/mysql/bin:/opt/local/sbin:$PATH
     ;;
   *)
+    export PATH=/var/lib/gems/1.8/bin/:$PATH
     ;;
 esac
