@@ -6,7 +6,11 @@ export HISTCONTROL=ignoreboth
 case $( uname -s ) in
   Darwin*)
     export PATH=/opt/local/bin:/usr/local/mysql/bin:/opt/local/sbin:$PATH
+    export SVN_EDITOR=/usr/bin/mate
     ;;
   *)
+    export PATH=/var/lib/gems/1.8/bin/:$PATH
     ;;
 esac
+# Prepare RVM
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.

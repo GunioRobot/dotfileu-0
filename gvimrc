@@ -4,7 +4,8 @@ set smarttab
 set shiftwidth=2
 set autoindent
 set expandtab
-set backspace=start,indent
+set backspace=2
+"set backspace=start,indent
 colorscheme ir_black
 set number
 set hlsearch
