@@ -3,6 +3,7 @@ export HISTCONTROL=ignoredups
 # ... and ignore same sucessive entries.
 export HISTCONTROL=ignoreboth
 # Mac ONLY
+export EDITOR=vim
 case $( uname -s ) in
   Darwin*)
     export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Developer/usr/bin/:$PATH
