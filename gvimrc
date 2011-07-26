@@ -6,7 +6,6 @@ set autoindent
 set expandtab
 set backspace=2
 "set backspace=start,indent
-colorscheme ir_black
 set number
 set hlsearch
 syntax on
