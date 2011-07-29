@@ -21,11 +21,11 @@ export ZSH_THEME="risto"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(rails git)
+plugins=(rails rvm git brew)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/Users/brian/.rvm/gems/ruby-1.9.2-p180/bin:/Users/brian/.rvm/gems/ruby-1.9.2-p180@global/bin:/Users/brian/.rvm/rubies/ruby-1.9.2-p180/bin:/Users/brian/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Developer/usr/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
+export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Developer/usr/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
 
-[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
