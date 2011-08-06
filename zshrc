@@ -28,4 +28,6 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Developer/usr/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
 
+# Setup RVM
+unsetopt auto_name_dirs
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
