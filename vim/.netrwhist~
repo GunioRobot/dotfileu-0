@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/brian/code/tv/app'
+let g:netrw_dirhist_2='/Users/brian/code/tv'
+let g:netrw_dirhist_3='/Users/brian/code/tv/app'
+let g:netrw_dirhist_4='/Users/brian/code/tv/app/views'
+let g:netrw_dirhist_5='/Users/brian/code/tv/app/views/admin'
+let g:netrw_dirhist_6='/Users/brian/code/tv/app/views/admin/homepage_playlists'
+let g:netrw_dirhist_7='/Users/brian/code/videoplayer'
+let g:netrw_dirhist_8='/Users/brian/code'
+let g:netrw_dirhist_9='/Users/brian/code/videoplayer'
