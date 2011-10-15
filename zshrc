@@ -30,4 +30,8 @@ export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Developer/usr/b
 
 # Setup RVM
 unsetopt auto_name_dirs
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+if [[ -s "/usr/local/lib/rvm" ]]; then 
+  . /usr/local/lib/rvm
+else
+  [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+fi
