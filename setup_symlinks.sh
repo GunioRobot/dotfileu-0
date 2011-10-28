@@ -1,11 +1,11 @@
 #!/bin/bash
-DIR=$(dirname $0)
+DIR="$( cd "$( dirname "$0" )" && pwd )"
 
-FILES=("vimrc" "zshrc" "oh-my-zsh") 
-
+FILES=("screenrc" "vimrc" "zshrc" "oh-my-zsh" "gvimrc" "bashrc" "irbrc" ) 
+echo $DIR
 for FILE in "${FILES[@]}"
 do
-  if [ -e "$FILE" ]
+  if [ -e ~/.$FILE ]
   then
     rm ~/.$FILE
   fi
