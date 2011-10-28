@@ -35,3 +35,6 @@ if [[ -s "/usr/local/lib/rvm" ]]; then
 else
   [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
 fi
+
+export WORKON_HOME="$HOME/.virtualenvs"
+source /usr/local/bin/virtualenvwrapper.sh
